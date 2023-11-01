@@ -1,0 +1,13 @@
+use sql_store;
+
+select * / 1,2 --纵向筛选列
+from customers -- 选择表
+where custimized_id < 4 --横向筛选行
+order by first_name --排序
+
+-- 单行注释
+
+
+/* 
+多行注释
+*/
